@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
 fun AffirmationsApp() {
     // render all the affirmations with the affirmation
     // list composable. When you run the app. You can 
-    // scroll with your finger or m
+    // scroll with your finger or mouse
     AffirmationList(affirmationList = Datasource()
         .loadAffirmations(),
     )
